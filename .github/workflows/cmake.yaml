@@ -28,7 +28,6 @@ jobs:
           cd build
           cmake ..
           make fontconv
-          make
 
   build-platformio:
     runs-on: ubuntu-latest
