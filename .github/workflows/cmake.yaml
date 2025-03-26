@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        example: [examples/arduino/helloworld-stm32-st7789/, examples/gammacalibration-stm32-st7789, helloworld-stm32-st7789]
+        example: [examples/arduino/helloworld-stm32-st7789/, examples/gammacalibration-stm32-st7789, examples/helloworld-stm32-st7789]
 
     steps:
       - uses: actions/checkout@v4
